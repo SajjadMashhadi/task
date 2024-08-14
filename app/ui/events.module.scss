@@ -1,0 +1,23 @@
+.main {
+  width: 800px;
+  .header {
+    color: #4d4d4d;
+    direction: rtl;
+    padding: 40px 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 30px;
+    .item {
+      color: #4d4d4d;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 340px;
+      border-bottom: 1px solid #f0f0f0;
+      padding-bottom: 20px;
+    }
+  }
+}

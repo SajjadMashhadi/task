@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  .chartContainer {
+    width: fit-content;
+    .textContainer {
+      padding-top: 7px;
+    }
+    .chartTitle {
+      position: relative;
+      top: 80px;
+      left: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: rgba(145, 145, 145, 0.884);
+      .number {
+        font-size: 50px;
+        color: rgba(74, 74, 74, 0.893);
+      }
+      .eventName {
+        color: rgba(25, 103, 172, 0.975);
+        font-weight: bold;
+      }
+    }
+  }
+}
